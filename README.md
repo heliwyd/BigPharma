@@ -41,11 +41,11 @@ The mod focuses on expanding industry variety and progression within Software In
 
 ### Early Game
 - Basic medical software 
-- Entry-level medical equiptment
+- Entry-level medical equipment
 
 ### Mid-Game
 - Expanded medical and device systems  
-- Expanded medical equiptment
+- Expanded medical equipment
 
 ### Late Game
 - Experimental Drugs (get caught skipping human trials!)
