@@ -333,7 +333,7 @@ SoftwareType
             DevTime     1
             CodeArt     1
             Submarkets  [ 1; 1; 1 ]
-            Dependencies [ "Compliance Software"; "Patient Intake"; "Medical R&D Portal" ]
+            Dependencies [ "Lab Systems" ]
             }
 			{
             Name        Hardware

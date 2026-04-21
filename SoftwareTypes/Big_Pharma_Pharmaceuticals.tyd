@@ -481,11 +481,11 @@ SoftwareType
 			}
 			{
             Name        "Dependency Check"
-            Spec        Bio-Engineer
+            Spec        Artist
             DevTime     1
             CodeArt     1
             Submarkets  [ 1; 1; 1 ]
-            Dependencies [ "Compliance Software"; "Patient Intake"; "Medical R&D Portal" ]
+            Dependencies [ "Lab Systems" ]
             }
 			{
             Name        "Medical Manufacturing"
