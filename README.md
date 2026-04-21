@@ -8,7 +8,7 @@ The mod expands the in-game software market with structured medical industry pro
 
 ## Overview
 
-Medical Systems Expansion Suite introduces new software categories inspired by the healthcare and pharmaceutical industries.
+Heli's Big Pharma introduces new software categories inspired by the healthcare and pharmaceutical industries.
 
 All content represents **in-game software products**, not real-world systems.
 

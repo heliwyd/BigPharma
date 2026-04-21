@@ -25,7 +25,7 @@ SoftwareType
 						{
 						Name 				"Active Compound"
 						Price				7
-						Time				8
+						Time				4
 						}
 						{
 						Name 				"Stabilizer Matrix"
@@ -35,7 +35,7 @@ SoftwareType
 						{
 						Name 				"Formulant"
 						Price				7
-						Time				8
+						Time				4
 						}
 						{
 						Name 				"Testing Reagent"
@@ -51,12 +51,12 @@ SoftwareType
 						{
 						Name 				"Analgesic Blend"
 						Price				10
-						Time				18
+						Time				8
 						}
 						{
 						Name 				"Pill Bottle"
 						Price				6
-						Time				12
+						Time				4
 						}
 					]
 				Processes
@@ -96,7 +96,7 @@ SoftwareType
 						{
 						Name 				"Active Compound"
 						Price				7
-						Time				8
+						Time				4
 						}
 						{
 						Name 				"Stabilizer Matrix"
@@ -106,12 +106,12 @@ SoftwareType
 						{
 						Name 				"Formulant"
 						Price				7
-						Time				8
+						Time				4
 						}
 						{
 						Name 				"Testing Reagent"
 						Price				6
-						Time				10
+						Time				2
 						}
 						{
 						Name 				Plastic
@@ -122,12 +122,12 @@ SoftwareType
 						{
 						Name 				"Anti-Microbial Compound"
 						Price				10
-						Time				20
+						Time				12
 						}
 						{
 						Name 				"Pill Bottle"
 						Price				6
-						Time				12
+						Time				4
 						}
 					]
 				Processes
@@ -167,7 +167,7 @@ SoftwareType
 						{
 						Name 				"Active Compound"
 						Price				7
-						Time				8
+						Time				4
 						}
 						{
 						Name 				"Stabilizer Matrix"
@@ -177,12 +177,12 @@ SoftwareType
 						{
 						Name 				"Formulant"
 						Price				7
-						Time				8
+						Time				4
 						}
 						{
 						Name 				"Testing Reagent"
 						Price				6
-						Time				10
+						Time				2
 						}
 						{
 						Name 				Plastic
@@ -198,12 +198,12 @@ SoftwareType
 						{
 						Name 				"Antigen Solution"
 						Price				10
-						Time				20
+						Time				16
 						}
 						{
 						Name 				"Syringe"
 						Price				4
-						Time				8
+						Time				4
 						}
 					]
 				Processes
@@ -243,7 +243,7 @@ SoftwareType
 						{
 						Name 				"Active Compound"
 						Price				7
-						Time				8
+						Time				4
 						}
 						{
 						Name 				"Stabilizer Matrix"
@@ -253,12 +253,12 @@ SoftwareType
 						{
 						Name 				"Formulant"
 						Price				7
-						Time				8
+						Time				4
 						}
 						{
 						Name 				"Testing Reagent"
 						Price				6
-						Time				10
+						Time				2
 						}
 						{
 						Name 				Plastic
@@ -269,12 +269,12 @@ SoftwareType
 						{
 						Name 				"Neuroactive Blend"
 						Price				12
-						Time				18
+						Time				16
 						}
 						{
 						Name 				"Pill Bottle"
-						Price				4
-						Time				8
+						Price				6
+						Time				4
 						}
 					]
 				Processes
@@ -314,7 +314,7 @@ SoftwareType
 						{
 						Name 				"Active Compound"
 						Price				7
-						Time				8
+						Time				4
 						}
 						{
 						Name 				"Stabilizer Matrix"
@@ -324,12 +324,12 @@ SoftwareType
 						{
 						Name 				"Formulant"
 						Price				7
-						Time				8
+						Time				4
 						}
 						{
 						Name 				"Testing Reagent"
 						Price				6
-						Time				10
+						Time				2
 						}
 						{
 						Name 				Plastic
@@ -340,12 +340,12 @@ SoftwareType
 						{
 						Name 				"Prototype Compound"
 						Price				25
-						Time				30
+						Time				16
 						}
 						{
 						Name 				"Pill Bottle"
-						Price				4
-						Time				8
+						Price				6
+						Time				4
 						}
 					]
 				Processes
@@ -376,6 +376,7 @@ SoftwareType
 			DevTime		10
 			CodeArt		0.85
 			Submarkets	[ 1; 1; 1 ]
+			Dependencies [ "Lab Systems" ]
 			Features
 				[
 					{
@@ -480,19 +481,12 @@ SoftwareType
 				]
 			}
 			{
-            Name        "Dependency Check"
-            Spec        Artist
-            DevTime     1
-            CodeArt     1
-            Submarkets  [ 1; 1; 1 ]
-            Dependencies [ "Lab Systems" ]
-            }
-			{
             Name        "Medical Manufacturing"
             Spec        Hardware
             DevTime     2
             CodeArt     0.8
             Submarkets  [ 1; 1; 1 ]
+            Dependencies [ "Lab Systems" ]
             Features
             [
                 {

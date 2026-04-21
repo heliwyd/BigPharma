@@ -257,6 +257,7 @@ SoftwareType
             DevTime     10
             CodeArt     0.85
             Submarkets  [ 1; 1; 1 ]
+            Dependencies [ "Lab Systems" ]
             Features
             [
                 {
@@ -328,20 +329,12 @@ SoftwareType
             ]
             }
 			{
-            Name        "Dependency Check"
-            Spec        Artist
-            DevTime     1
-            CodeArt     1
-            Submarkets  [ 1; 1; 1 ]
-            Dependencies [ "Lab Systems" ]
-            }
-			{
             Name        Hardware
             Spec        Hardware
             DevTime     2
             CodeArt     0.8
             Submarkets  [ 1; 1; 1 ]
-            
+            Dependencies [ "Lab Systems" ]
             Features
             [
                 {
