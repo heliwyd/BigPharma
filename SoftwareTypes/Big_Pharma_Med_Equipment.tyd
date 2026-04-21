@@ -24,14 +24,46 @@ SoftwareType
 				{
 				Components
 					[
-						{ Name "PCB" Price 12 Time 10 }
-						{ Name "Control Unit" Price 12 Time 10 }
-						{ Name "Microchip" Price 10 Time 10 }
-						{ Name "LCD" Price 8 Time 6 }
-						{ Name "PlasticCase" Price 6 Time 6 }
-						{ Name "Thermostat" Price 10 Time 10 }
-						{ Name "X-Ray Tube" Price 25 Time 18 }
-						{ Name "Imaging Core" Price 35 Time 20 }
+						{
+						Name "PCB" 
+						Price 12 
+						Time 10 
+						}
+						{ 
+						Name "Control Unit" 
+						Price 12 
+						Time 10 
+						}
+						{ 
+						Name "Microchip" 
+						Price 10 
+						Time 10 
+						}
+						{ 
+						Name "LCD" 
+						Price 8 
+						Time 6 
+						}
+						{ 
+						Name "PlasticCase" 
+						Price 6 
+						Time 6 
+						}
+						{ 
+						Name "Thermostat" 
+						Price 10 
+						Time 10 
+						}
+						{ 
+						Name "X-Ray Tube" 
+						Price 25 
+						Time 18 
+						}
+						{ 
+						Name "Imaging Core" 
+						Price 35 
+						Time 20 
+						}
 					]
 				Processes
 					[
@@ -69,13 +101,46 @@ SoftwareType
 				{
 				Components
 					[
-						{ Name "PCB" Price 14 Time 12 }
-						{ Name "Microchip" Price 12 Time 12 }
-						{ Name "LCD" Price 10 Time 8 }
-						{ Name "PlasticCase" Price 8 Time 8 }
-						{ Name "Thermostat" Price 12 Time 12 }
-						{ Name "X-Ray Array" Price 40 Time 22 }
-						{ Name "Scan Core" Price 50 Time 26 }
+						{ 
+						Name "PCB" 
+						Price 14 
+						Time 12 
+						}
+						{ 
+						Name "Control Unit" 
+						Price 12 
+						Time 10 
+						}
+						{ 
+						Name "Microchip" 
+						Price 12 
+						Time 12 
+						}
+						{ 
+						Name "LCD" 
+						Price 10 
+						Time 8 
+						}
+						{ 
+						Name "PlasticCase" 
+						Price 8 
+						Time 8 
+						}
+						{ 
+						Name "Thermostat" 
+						Price 12 
+						Time 12 
+						}
+						{ 
+						Name "X-Ray Array" 
+						Price 40 
+						Time 22 
+						}
+						{ 
+						Name "Scan Core" 
+						Price 50 
+						Time 26 
+						}
 					]
 				Processes
 					[
@@ -114,14 +179,51 @@ SoftwareType
 				{
 				Components
 					[
-						{ Name "PCB" Price 16 Time 14 }
-						{ Name "Microchip" Price 14 Time 14 }
-						{ Name "LCD" Price 12 Time 10 }
-						{ Name "PlasticCase" Price 10 Time 10 }
-						{ Name "Thermostat" Price 14 Time 14 }
-						{ Name "Magnet Core" Price 60 Time 30 }
-						{ Name "Resonance Chamber" Price 70 Time 34 }
-						{ Name "Scan Core" Price 80 Time 36 }
+						{ 
+						Name "PCB" 
+						Price 16 
+						Time 14 
+						}
+						{ 
+						Name "Control Unit" 
+						Price 12 
+						Time 10 
+						}
+						{ 
+						Name "Microchip" 
+						Price 14 
+						Time 14 
+						}
+						{ 
+						Name "LCD" 
+						Price 12 
+						Time 10 
+						}
+						{ 
+						Name "PlasticCase" 
+						Price 10 
+						Time 10 
+						}
+						{ 
+						Name "Thermostat" 
+						Price 14 
+						Time 14 
+						}
+						{ 
+						Name "Magnet Core" 
+						Price 60 
+						Time 30 
+						}
+						{ 
+						Name "Resonance Chamber" 
+						Price 70 
+						Time 34 
+						}
+						{ 
+						Name "Scan Core" 
+						Price 80 
+						Time 36 
+						}
 					]
 				Processes
 					[

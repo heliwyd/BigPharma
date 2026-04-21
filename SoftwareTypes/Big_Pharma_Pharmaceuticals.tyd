@@ -3,6 +3,8 @@ SoftwareType
 	Name			"Pharmaceuticals"
 	Description		"Pharmaceuticals are medical products used to treat illnesses and improve health. Low safety or effectiveness will reduce trust and sales."
     SubmarketNames	[ "General Care"; "Preventative Care"; "Advanced Treatment" ]
+    Random          0.5
+    OptimalDevTime  80
 	Categories
 		[
 			{
@@ -10,9 +12,8 @@ SoftwareType
 			Description	"Alleviate that nasty ache in your body."
 			NameGenerator Big_Pharma_Pharmaceuticals_Generator
 			Popularity	0.75
-			OptimalDevTime	40
+			TimeScale   0.8
 			Retention	24
-			Random      .25
 			Iterative	1
 			IdealPrice	60
 			Submarkets	[ 8; 1; 1]
@@ -82,9 +83,8 @@ SoftwareType
 			Description	"Got a runny nose? Cough making your lungs hurt? Look no further and feel better with anti-biotics!"
 			NameGenerator Big_Pharma_Pharmaceuticals_Generator
 			Popularity	0.75
-			OptimalDevTime	45
+			TimeScale   0.85
 			Retention	28
-			Random      .25
 			Iterative	1
 			IdealPrice	65
 			Submarkets	[ 5; 4; 1]
@@ -154,9 +154,8 @@ SoftwareType
 			Description	"Get precautionary care to prevent from catching deadly diseases!"
 			NameGenerator Big_Pharma_Pharmaceuticals_Generator
 			Popularity	0.75
-			OptimalDevTime	60
+			TimeScale   0.9
 			Retention	36
-			Random      .35
 			Iterative	1
 			IdealPrice	80
 			Submarkets	[ 1; 9; 0]
@@ -231,9 +230,8 @@ SoftwareType
 			Description	"Feeling down? Well stop it!"
 			NameGenerator Big_Pharma_Pharmaceuticals_Generator
 			Popularity	0.5
-			OptimalDevTime	50
+			TimeScale   0.85
 			Retention	28
-			Random      .5
 			Iterative	1
 			IdealPrice	70
 			Submarkets	[ 6; 1; 3]
@@ -303,9 +301,8 @@ SoftwareType
 			Description	"Want to save the world? Get risky and possibly go to jail? Cure Cancer? Try and it see how you fare!"
 			NameGenerator Big_Pharma_Pharmaceuticals_Generator
 			Popularity	0.5
-			OptimalDevTime	80
+			TimeScale   1
 			Retention	32
-			Random      .5
 			Iterative	1
 			IdealPrice	120
 			Submarkets	[ 1; 1; 8]
@@ -549,7 +546,6 @@ SoftwareType
                     Script_EndOfDay "
                     if (Product.GetVar(\"BatchAuditing\", true))
                     {
-                        // main benefit: reduce bugs more effectively than baseline systems
                         Product.Bugs = Max(0, Product.Bugs - Product.Userbase * 0.000002);
                     }
                     "
