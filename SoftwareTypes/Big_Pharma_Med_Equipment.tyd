@@ -329,7 +329,7 @@ SoftwareType
             }
 			{
             Name        "Dependency Check"
-            Spec        System
+            Spec        Artist
             DevTime     1
             CodeArt     1
             Submarkets  [ 1; 1; 1 ]

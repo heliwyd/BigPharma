@@ -472,7 +472,7 @@ SoftwareType
                     
                     		Product.PutVar(\"HumanTrials\", false);
                     
-                    		AddPopUp(\"Human trials controversy detected for \" + Product.Name, 0.8, \"Exclamation\", Issue);
+                    		AddPopup(\"Human trials controversy detected.\", 0.8, \"Exclamation\", Issue);
                     	}
                     }
                     "
