@@ -457,30 +457,25 @@ SoftwareType
         			
         			Script_OnRelease
                     "
-                    Product.PutVar("HumanTrials", true);
+                    Product.PutVar(\"HumanTrials\", true);
                     "
                     
                     Script_EndOfDay
                     "
-                    if (Product.GetVar("HumanTrials", false))
+                    if (Product.GetVar(\"HumanTrials\", false))
                     {
-                    	// Small benefit: simulate improvement via reduced bugs
                     	Product.Bugs = Max(0, Product.Bugs - Product.Userbase * 0.000001);
                     
-                    	// Risk: lawsuits scale with popularity/userbase
                     	if (Random() * Product.Userbase > 1500000 * Product.Category.Popularity)
                     	{
-                    		LaunchLawsuit("UnapprovedHumanTrials", Product.Sum, 0.8);
+                    		LaunchLawsuit(\"UnapprovedHumanTrials\", Product.Sum, 0.8);
                     
-                    		// Reputation damage
                     		Product.DevCompany.AddFans(-Product.Userbase * 0.2, Product.Category);
                     		Product.ChangeUserbase(Product.Userbase * 0.3);
                     
-                    		// Reset exposure after scandal
-                    		Product.PutVar("HumanTrials", false);
+                    		Product.PutVar(\"HumanTrials\", false);
                     
-                    		// Player feedback
-                    		AddPopUp("Human trials controversy detected for " + Product.Name, 0.8, "Exclamation", Issue);
+                    		AddPopUp(\"Human trials controversy detected for \" + Product.Name, 0.8, \"Exclamation\", Issue);
                     	}
                     }
                     "
