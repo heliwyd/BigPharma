@@ -186,6 +186,7 @@ SoftwareType
     		CodeArt 1
     		Submarkets [ 1; 1; 1 ]
     		Unlock 1987
+    		Optional True
     		Features
     		[
     			{
